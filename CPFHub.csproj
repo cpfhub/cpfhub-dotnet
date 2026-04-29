@@ -19,7 +19,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/cpfhub/cpfhub-dotnet</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageIcon>icon.png</PackageIcon>
+    <!-- <PackageIcon>icon.png</PackageIcon> -->
     <Copyright>Copyright © CPFHub.io</Copyright>
   </PropertyGroup>
 
