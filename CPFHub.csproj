@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+
+    <!-- NuGet metadata -->
+    <PackageId>CPFHub</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>CPFHub.io</Authors>
+    <Company>CPFHub.io</Company>
+    <Product>CPFHub .NET SDK</Product>
+    <Description>Official .NET SDK for CPFHub.io — Brazilian CPF lookup API. Get name, gender and date of birth from any CPF in ~300ms. Supports ASP.NET Core, Minimal API, F# and VB.NET.</Description>
+    <PackageTags>cpf;cpf-api;cpf-lookup;cpf-validation;cpfhub;brazil;brasil;receita-federal;sdk;fintech;kyc;identity-verification;onboarding;lgpd;dotnet;csharp;aspnetcore</PackageTags>
+    <PackageProjectUrl>https://cpfhub.io</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/cpfhub/cpfhub-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>icon.png</PackageIcon>
+    <Copyright>Copyright © CPFHub.io</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
