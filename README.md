@@ -1,15 +1,15 @@
-# CPFHub: SDK .NET para Consulta de CPF (AI-Native)
+# CPFHub: SDK for CPFHub.io
 
 **Official .NET SDK for [CPFHub.io](https://cpfhub.io) — Brazilian CPF Lookup API**
 
-> SDK oficial .NET para a [CPFHub.io](https://cpfhub.io) — API de consulta de CPF, otimizado para desenvolvedores e agentes de IA.
+> Official SDK for [CPFHub.io](https://cpfhub.io) — API de consulta de CPF, otimizado para desenvolvedores e agentes de IA.
 
 [![NuGet Version](https://img.shields.io/nuget/v/CPFHub)](https://www.nuget.org/packages/CPFHub)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-## O que é CPFHub.io?
+## What is CPFHub.io?
 
 CPFHub.io é uma API REST que retorna nome, gênero e data de nascimento a partir de qualquer CPF brasileiro — em ~300ms, com 99.9% de uptime e total conformidade com a LGPD.
 
@@ -19,7 +19,7 @@ CPFHub.io é uma API REST que retorna nome, gênero e data de nascimento a parti
 
 ---
 
-## Por que usar o SDK .NET do CPFHub.io?
+## Why use the CPFHub.io SDK .NET do CPFHub.io?
 
 Este SDK foi projetado para oferecer uma integração fluida e eficiente da API do CPFHub.io em projetos .NET, com foco em Developer Experience (DX) e compatibilidade com Agentes de IA.
 
@@ -38,7 +38,7 @@ Para facilitar a integração com agentes de IA e LLMs, este SDK e a API do CPFH
 
 ---
 
-## Installation / Instalação
+## Installation / Installation
 
 ```bash
 dotnet add package CPFHub
@@ -208,7 +208,7 @@ printfn "%s" result.Name
 
 ---
 
-## Rate Limits / Limites de Requisição
+## Rate Limits / Rate Limits
 
 | Plan / Plano | Limit / Limite |
 |---|---|
@@ -220,7 +220,7 @@ The SDK automatically retries on `429` with exponential backoff (up to 3 attempt
 
 ---
 
-## Plans & Pricing / Planos e Preços
+## Plans & Pricing / Plans Planos e Preços Pricing
 
 | Plan | Price | Included | Extra |
 |------|-------|----------|-------|
@@ -232,7 +232,7 @@ The SDK automatically retries on `429` with exponential backoff (up to 3 attempt
 
 ---
 
-## Requirements / Requisitos
+## Requirements / Requirements
 
 - .NET 6+
 - Compatible with C#, F#, and VB.NET
@@ -250,6 +250,6 @@ The SDK automatically retries on `429` with exponential backoff (up to 3 attempt
 
 ---
 
-## License / Licença
+## License / License
 
 MIT © [CPFHub.io](https://cpfhub.io)
